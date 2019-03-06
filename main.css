@@ -1,0 +1,24 @@
+.container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.viewer {
+  background-color: gray;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: right;
+  width: 400px;
+  height: 50px;
+}
+
+button {
+  font-size: 30px;
+  text-align: center;
+}
